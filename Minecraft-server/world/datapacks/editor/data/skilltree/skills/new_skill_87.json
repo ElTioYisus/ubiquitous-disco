@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:new_skill_87",
+  "bonuses": [
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "equipment_type": "leggings",
+        "type": "skilltree:equipment_type"
+      },
+      "item_bonus": {
+        "amount": 1,
+        "type": "skilltree:sockets"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_82"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/blacksmith_subclass_2_mastery.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 28.631962,
+  "positionY": 778.38745,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

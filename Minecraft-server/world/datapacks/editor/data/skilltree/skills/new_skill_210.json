@@ -1,0 +1,46 @@
+{
+  "id": "skilltree:new_skill_210",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "1bb3e5d7-0acc-4ef8-9e5f-c74a2d536118",
+      "name": "Skill",
+      "amount": 3.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "skilltree:regeneration",
+      "id": "57e5ad28-7041-4d53-84b9-552054ea9c37",
+      "name": "Skill",
+      "amount": 0.5,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_209"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Entrenamiento Exhaustivo",
+  "positionX": -189.55614,
+  "positionY": 31.631718,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

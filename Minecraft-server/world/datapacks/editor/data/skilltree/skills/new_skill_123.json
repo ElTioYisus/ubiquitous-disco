@@ -1,0 +1,30 @@
+{
+  "id": "skilltree:new_skill_123",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:overheal",
+      "id": "50876d38-102a-4a36-aedd-19b74d154cff",
+      "name": "Skill",
+      "amount": 0.2,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "backgroundTexture": "skilltree:textures/icons/background/class.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "SobreCuración",
+  "positionX": -85.56078,
+  "positionY": 83.63464,
+  "buttonSize": 20,
+  "isStartingPoint": false
+}

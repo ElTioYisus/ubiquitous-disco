@@ -1,0 +1,42 @@
+{
+  "id": "skilltree:new_skill_44",
+  "bonuses": [
+    {
+      "type": "skilltree:enchantment_amplification",
+      "enchantment_condition": {
+        "type": "skilltree:none"
+      },
+      "chance": 0.2
+    },
+    {
+      "type": "skilltree:enchantment_amplification",
+      "enchantment_condition": {
+        "type": "skilltree:armor"
+      },
+      "chance": 0.1
+    },
+    {
+      "type": "skilltree:enchantment_amplification",
+      "enchantment_condition": {
+        "type": "skilltree:weapon"
+      },
+      "chance": 0.1
+    },
+    {
+      "type": "skilltree:enchantment_requirement",
+      "multiplier": -0.1
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_43"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/enchanter_subclass_1_mastery.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -140.25694,
+  "positionY": 582.8784,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

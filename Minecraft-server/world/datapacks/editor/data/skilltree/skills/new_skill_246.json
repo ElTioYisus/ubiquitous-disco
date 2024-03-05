@@ -1,0 +1,46 @@
+{
+  "id": "skilltree:new_skill_246",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:cooldown_reduction",
+      "id": "2fdf630f-ee45-4302-b6dc-8e9981a90b55",
+      "name": "Skill",
+      "amount": 0.3,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:cast_time_reduction",
+      "id": "f9ca85c4-532e-40bf-81ed-4cb534a60e7a",
+      "name": "Skill",
+      "amount": 0.15,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_245"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "backgroundTexture": "skilltree:textures/icons/background/class.png",
+  "iconTexture": "skilltree:textures/icons/cook_subclass_1_mastery.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "ChronoMancer",
+  "positionX": 56.504,
+  "positionY": 355.706,
+  "buttonSize": 20,
+  "isStartingPoint": false
+}

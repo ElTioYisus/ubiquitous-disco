@@ -1,0 +1,34 @@
+{
+  "id": "skilltree:new_skill_105",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:holy_spell_power",
+      "id": "c60c7783-1036-4e30-aa85-6ca837791db5",
+      "name": "Skill",
+      "amount": 0.15,
+      "operation": 1,
+      "player_multiplier": {
+        "attribute": "irons_spellbooks:max_mana",
+        "divisor": 25.0,
+        "type": "skilltree:attribute_value"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_104"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/alchemist_subclass_2.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Sacerdote",
+  "positionX": 79.021,
+  "positionY": 160.707,
+  "buttonSize": 20,
+  "isStartingPoint": false
+}

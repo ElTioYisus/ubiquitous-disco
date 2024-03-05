@@ -1,0 +1,32 @@
+{
+  "id": "skilltree:new_skill_146",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:max_mana",
+      "id": "af6a24e1-3f04-42ea-9828-a87f99a2a236",
+      "name": "Skill",
+      "amount": 10.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_114"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/miner_speed_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Reservas Arcanas",
+  "positionX": -8.494262,
+  "positionY": 158.15344,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

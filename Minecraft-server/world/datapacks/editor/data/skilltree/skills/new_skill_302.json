@@ -1,0 +1,45 @@
+{
+  "id": "skilltree:new_skill_302",
+  "bonuses": [
+    {
+      "type": "skilltree:mob_effect",
+      "chance": 0.05,
+      "effect": "irons_spellbooks:instant_mana",
+      "duration": 10,
+      "amplifier": 3,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_condition": {
+          "type": "skilltree:none"
+        },
+        "player_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_multiplier": {
+          "type": "skilltree:none"
+        },
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "target": "player",
+        "type": "skilltree:attack"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_301",
+    "skilltree:new_skill_303"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Sobrecarga",
+  "positionX": -115.046,
+  "positionY": 238.696,
+  "buttonSize": 20,
+  "isStartingPoint": false
+}

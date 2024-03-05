@@ -1,0 +1,24 @@
+{
+  "id": "skilltree:new_skill_47",
+  "bonuses": [
+    {
+      "type": "skilltree:enchantment_amplification",
+      "enchantment_condition": {
+        "type": "skilltree:weapon"
+      },
+      "chance": 0.25
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_42"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/enchanter_mastery.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -82.22387,
+  "positionY": 586.3655,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

@@ -1,0 +1,32 @@
+{
+  "id": "skilltree:new_skill_280",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "forge:swim_speed",
+      "id": "40be49cc-40fb-48a2-8ec2-495fc91cdd91",
+      "name": "Skill",
+      "amount": 0.05,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_205"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Clases de Nado",
+  "positionX": 101.54964,
+  "positionY": -162.4259,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

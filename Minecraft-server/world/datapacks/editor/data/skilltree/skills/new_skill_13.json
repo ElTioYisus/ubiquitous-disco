@@ -1,0 +1,23 @@
+{
+  "id": "skilltree:new_skill_13",
+  "bonuses": [
+    {
+      "type": "skilltree:gained_experience",
+      "multiplier": 0.4,
+      "experience_source": "fishing"
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_12"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/cook_subclass_2_life_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Pezca Experimentada",
+  "positionX": 123.01117,
+  "positionY": 595.8915,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

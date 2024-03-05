@@ -1,0 +1,33 @@
+{
+  "id": "skilltree:new_skill_378",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:crit_chance",
+      "id": "ce9568dc-bedb-47fb-9169-b61a102fb19d",
+      "name": "Skill",
+      "amount": 0.05,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_377",
+    "skilltree:new_skill_358"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Golpe Preciso",
+  "positionX": -218.09929,
+  "positionY": -126.92028,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

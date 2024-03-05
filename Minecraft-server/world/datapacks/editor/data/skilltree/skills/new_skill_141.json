@@ -1,0 +1,34 @@
+{
+  "id": "skilltree:new_skill_141",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.knockback_resistance",
+      "id": "c8a1626b-c6a1-492a-bc93-356a345c9973",
+      "name": "Skill",
+      "amount": 0.05,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_274"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:new_skill_282"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Pie Firme",
+  "positionX": -63.040257,
+  "positionY": 44.633183,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

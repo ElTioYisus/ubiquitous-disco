@@ -1,0 +1,48 @@
+{
+  "id": "skilltree:new_skill_205",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "49aa4052-4bb8-4b87-a680-5adeffa202bf",
+      "name": "Skill",
+      "amount": 2.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "skilltree:stealth",
+      "id": "58a6f4b7-f62b-4ac6-9400-4b5cc581897f",
+      "name": "Skill",
+      "amount": 2.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_204",
+    "skilltree:new_skill_192",
+    "skilltree:new_skill_285"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Desaparecer en la Multitud",
+  "positionX": 79.03377,
+  "positionY": -149.42737,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

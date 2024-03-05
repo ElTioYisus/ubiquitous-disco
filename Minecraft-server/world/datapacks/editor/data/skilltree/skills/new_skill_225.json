@@ -1,0 +1,33 @@
+{
+  "id": "skilltree:new_skill_225",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "skilltree:evasion",
+      "id": "11195d73-3536-4751-b477-f422e213aa2a",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:new_skill_232",
+    "skilltree:new_skill_226"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/hunter_defensive_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Camuflaje",
+  "positionX": 146.5691,
+  "positionY": 128.67761,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

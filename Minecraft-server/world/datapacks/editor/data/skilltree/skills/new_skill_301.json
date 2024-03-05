@@ -1,0 +1,44 @@
+{
+  "id": "skilltree:new_skill_301",
+  "bonuses": [
+    {
+      "type": "skilltree:mob_effect",
+      "chance": 0.1,
+      "effect": "irons_spellbooks:instant_mana",
+      "duration": 10,
+      "amplifier": 0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_condition": {
+          "type": "skilltree:none"
+        },
+        "player_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_multiplier": {
+          "type": "skilltree:none"
+        },
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "target": "player",
+        "type": "skilltree:attack"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_214"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Inspiración",
+  "positionX": -115.04608,
+  "positionY": 212.69641,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

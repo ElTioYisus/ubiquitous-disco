@@ -1,0 +1,47 @@
+{
+  "id": "skilltree:new_skill_40",
+  "bonuses": [
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "tag_id": "forge:curios/jewelry",
+        "type": "skilltree:tag"
+      },
+      "item_bonus": {
+        "skill_bonus": {
+          "chance": 0.075,
+          "player_multiplier": {
+            "type": "skilltree:none"
+          },
+          "enemy_multiplier": {
+            "type": "skilltree:none"
+          },
+          "player_condition": {
+            "type": "skilltree:none"
+          },
+          "damage_condition": {
+            "type": "skilltree:none"
+          },
+          "target_condition": {
+            "type": "skilltree:none"
+          },
+          "type": "skilltree:crit_chance"
+        },
+        "type": "skilltree:skill_bonus"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_38"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/miner_subclass_2.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Filo Brillante",
+  "positionX": -69.33079,
+  "positionY": 543.65643,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

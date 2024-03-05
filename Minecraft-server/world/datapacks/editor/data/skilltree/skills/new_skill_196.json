@@ -1,0 +1,43 @@
+{
+  "id": "skilltree:new_skill_196",
+  "bonuses": [
+    {
+      "type": "skilltree:mob_effect",
+      "chance": 0.07,
+      "effect": "minecraft:resistance",
+      "duration": 200,
+      "amplifier": 0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_condition": {
+          "type": "skilltree:none"
+        },
+        "player_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_multiplier": {
+          "type": "skilltree:none"
+        },
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "target": "player",
+        "type": "skilltree:damage_taken"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_195"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -47.489925,
+  "positionY": -162.43079,
+  "buttonSize": 20,
+  "isStartingPoint": false
+}

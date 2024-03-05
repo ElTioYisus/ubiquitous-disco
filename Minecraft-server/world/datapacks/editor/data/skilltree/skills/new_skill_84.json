@@ -1,0 +1,25 @@
+{
+  "id": "skilltree:new_skill_84",
+  "bonuses": [
+    {
+      "type": "skilltree:repair_efficiency",
+      "item_condition": {
+        "equipment_type": "armor",
+        "type": "skilltree:equipment_type"
+      },
+      "multiplier": 0.5
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_83"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/blacksmith_subclass_2_crafting_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 2.6319585,
+  "positionY": 830.38745,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

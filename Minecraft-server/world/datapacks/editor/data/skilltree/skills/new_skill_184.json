@@ -1,0 +1,33 @@
+{
+  "id": "skilltree:new_skill_184",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:life_steal",
+      "id": "889f036f-226e-4e9c-b944-b6da052e2a32",
+      "name": "Skill",
+      "amount": 0.01,
+      "operation": 1,
+      "player_multiplier": {
+        "divisor": 5.0,
+        "type": "skilltree:missing_health_percentage"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_183"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Llamada de Sangre",
+  "positionX": -137.567,
+  "positionY": 173.698,
+  "buttonSize": 20,
+  "isStartingPoint": false
+}

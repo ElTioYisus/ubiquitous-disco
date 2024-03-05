@@ -1,0 +1,35 @@
+{
+  "id": "skilltree:new_skill_135",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "id": "d2ec556a-6d88-4b90-9a3d-3a07e3b6e380",
+      "name": "Skill",
+      "amount": 0.02,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_130",
+    "skilltree:new_skill_263"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:new_skill_281"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Carrera",
+  "positionX": 72.05592,
+  "positionY": 44.64124,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

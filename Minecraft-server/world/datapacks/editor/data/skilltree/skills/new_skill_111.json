@@ -1,0 +1,33 @@
+{
+  "id": "skilltree:new_skill_111",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:nature_spell_power",
+      "id": "3a8a56d8-0b69-4b9d-a177-b2ba838dc8fb",
+      "name": "Skill",
+      "amount": 0.15,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_108",
+    "skilltree:new_skill_223"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/cook_defensive_keystone_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Chaman",
+  "positionX": 124.053,
+  "positionY": 238.709,
+  "buttonSize": 20,
+  "isStartingPoint": false
+}

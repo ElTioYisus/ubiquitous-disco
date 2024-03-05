@@ -1,0 +1,24 @@
+{
+  "id": "skilltree:new_skill_56",
+  "bonuses": [
+    {
+      "type": "skilltree:block_break_speed",
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "multiplier": 0.25
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_55"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/miner_subclass_1_mastery.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -211.0728,
+  "positionY": 703.0604,
+  "buttonSize": 20,
+  "isStartingPoint": false
+}

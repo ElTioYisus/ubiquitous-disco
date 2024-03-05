@@ -1,0 +1,21 @@
+{
+  "id": "skilltree:new_skill_68",
+  "bonuses": [
+    {
+      "type": "skilltree:arrow_retrieval",
+      "chance": 0.1
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_62"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/hunter_crit_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 55.342243,
+  "positionY": 768.6674,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

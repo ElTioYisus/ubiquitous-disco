@@ -1,0 +1,82 @@
+{
+  "id": "skilltree:new_skill_360",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_damage",
+      "id": "c273c6b7-98d0-4e3d-b36b-e9ce5adb69a4",
+      "name": "Skill",
+      "amount": 1.5,
+      "operation": 0,
+      "player_multiplier": {
+        "divisor": 4.0,
+        "type": "skilltree:missing_health_points"
+      },
+      "player_condition": {
+        "max": 0.75,
+        "type": "skilltree:health_percentage"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_speed",
+      "id": "93830e07-1e4d-4620-b9a0-53b245c9d193",
+      "name": "Skill",
+      "amount": 0.01,
+      "operation": 1,
+      "player_multiplier": {
+        "divisor": 4.0,
+        "type": "skilltree:missing_health_percentage"
+      },
+      "player_condition": {
+        "max": 0.75,
+        "type": "skilltree:health_percentage"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.knockback_resistance",
+      "id": "067001e0-241d-46db-bbfb-9c16cecd0d37",
+      "name": "Skill",
+      "amount": 0.05,
+      "operation": 1,
+      "player_multiplier": {
+        "divisor": 10.0,
+        "type": "skilltree:missing_health_percentage"
+      },
+      "player_condition": {
+        "max": 0.75,
+        "type": "skilltree:health_percentage"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "8da4d49f-c906-4eb7-97f2-0f1453c4a84e",
+      "name": "Skill",
+      "amount": 3.0,
+      "operation": 0,
+      "player_multiplier": {
+        "divisor": 5.0,
+        "type": "skilltree:missing_health_percentage"
+      },
+      "player_condition": {
+        "max": 0.75,
+        "type": "skilltree:health_percentage"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_359"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "backgroundTexture": "skilltree:textures/icons/background/class.png",
+  "iconTexture": "skilltree:textures/icons/cook_subclass_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Berserk",
+  "positionX": -250.132,
+  "positionY": -175.444,
+  "buttonSize": 20,
+  "isStartingPoint": false
+}

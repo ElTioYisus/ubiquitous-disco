@@ -1,0 +1,37 @@
+{
+  "id": "skilltree:new_skill_373",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_speed",
+      "id": "7cd05c61-a68b-48e1-bec7-1fa3d08628da",
+      "name": "Skill",
+      "amount": 0.03,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "min": 1,
+        "item_condition": {
+          "equipment_type": "melee_weapon",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_gems"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_372",
+    "skilltree:new_skill_356"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -173.06764,
+  "positionY": -100.91735,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

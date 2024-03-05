@@ -1,0 +1,33 @@
+{
+  "id": "skilltree:new_skill_260",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:spell_power",
+      "id": "2b885454-5af3-4821-908e-7306839f92d6",
+      "name": "Skill",
+      "amount": 0.05,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_114",
+    "skilltree:new_skill_116"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/enchanter_subclass_2_mastery.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Incremento Arcano",
+  "positionX": 27.024296,
+  "positionY": 122.63831,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

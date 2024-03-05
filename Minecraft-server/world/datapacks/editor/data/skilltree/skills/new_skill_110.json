@@ -1,0 +1,33 @@
+{
+  "id": "skilltree:new_skill_110",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_damage",
+      "id": "87de911f-e9cc-4e53-b072-0a10d7236990",
+      "name": "Skill",
+      "amount": 0.5,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_109",
+    "skilltree:new_skill_140"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/blacksmith_offensive_crafting_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Entrenamiento Muscular",
+  "positionX": -40.52447,
+  "positionY": 5.6346474,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

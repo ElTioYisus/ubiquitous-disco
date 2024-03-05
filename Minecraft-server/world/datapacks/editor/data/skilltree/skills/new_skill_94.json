@@ -1,0 +1,25 @@
+{
+  "id": "skilltree:new_skill_94",
+  "bonuses": [
+    {
+      "type": "skilltree:repair_efficiency",
+      "item_condition": {
+        "equipment_type": "weapon",
+        "type": "skilltree:equipment_type"
+      },
+      "multiplier": 0.5
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_93"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/enchanter_offensive_keystone_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -103.430725,
+  "positionY": 791.7826,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

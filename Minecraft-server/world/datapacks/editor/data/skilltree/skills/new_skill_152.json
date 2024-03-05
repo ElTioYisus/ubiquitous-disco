@@ -1,0 +1,33 @@
+{
+  "id": "skilltree:new_skill_152",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.luck",
+      "id": "828b90ac-7ccd-46f0-96f8-9f71ce0ff5cc",
+      "name": "Skill",
+      "amount": 0.5,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_153",
+    "skilltree:new_skill_334"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Suerte ",
+  "positionX": 221.0926,
+  "positionY": -33.358757,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

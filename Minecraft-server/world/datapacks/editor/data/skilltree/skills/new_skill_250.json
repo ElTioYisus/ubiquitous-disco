@@ -1,0 +1,32 @@
+{
+  "id": "skilltree:new_skill_250",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:cast_time_reduction",
+      "id": "f3ad8f0d-d19e-4410-bc2b-af70a723da2e",
+      "name": "Skill",
+      "amount": 0.05,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_248"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Cronometria",
+  "positionX": 30.504364,
+  "positionY": 329.70575,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

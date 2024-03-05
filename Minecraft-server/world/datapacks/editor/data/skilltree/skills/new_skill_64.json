@@ -1,0 +1,22 @@
+{
+  "id": "skilltree:new_skill_64",
+  "bonuses": [
+    {
+      "type": "skilltree:gained_experience",
+      "multiplier": 0.2,
+      "experience_source": "mobs"
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_63"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/hunter_subclass_1_crafting_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 108.68245,
+  "positionY": 791.7927,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

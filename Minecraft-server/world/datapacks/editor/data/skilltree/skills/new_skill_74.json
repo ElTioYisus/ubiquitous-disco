@@ -1,0 +1,30 @@
+{
+  "id": "skilltree:new_skill_74",
+  "bonuses": [
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "type": "skilltree:food"
+      },
+      "item_bonus": {
+        "effect": "skilltree:life_regeneration_bonus",
+        "duration": 600,
+        "amplifier": 99,
+        "type": "skilltree:food_effect"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_73"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/cook_speed_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Comida Reconstructiva",
+  "positionX": 165.12325,
+  "positionY": 694.04834,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

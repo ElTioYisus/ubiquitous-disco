@@ -1,0 +1,31 @@
+{
+  "id": "skilltree:new_skill_54",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "forge:entity_reach",
+      "id": "6a975a6e-3995-47b7-9936-d207935d54c6",
+      "name": "Skill",
+      "amount": 0.1,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_53"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/miner_mastery.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -159.8626,
+  "positionY": 694.03253,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

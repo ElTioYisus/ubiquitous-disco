@@ -1,0 +1,23 @@
+{
+  "id": "skilltree:new_skill_220",
+  "bonuses": [
+    {
+      "type": "skilltree:recipe_unlock",
+      "recipe_id": "skilltree:potion_mixing"
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_218",
+    "skilltree:new_skill_219"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Alquimista",
+  "positionX": 243.605,
+  "positionY": 31.645,
+  "buttonSize": 20,
+  "isStartingPoint": false
+}

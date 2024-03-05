@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:new_skill_79",
+  "bonuses": [
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "type": "skilltree:food"
+      },
+      "item_bonus": {
+        "amount": 2.0,
+        "type": "skilltree:food_healing"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_77"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/alchemist_healing_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Buena Nutrición",
+  "positionX": 144.03523,
+  "positionY": 663.9273,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

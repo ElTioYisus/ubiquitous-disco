@@ -1,0 +1,41 @@
+{
+  "id": "skilltree:new_skill_32",
+  "bonuses": [
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "tag_id": "forge:curios/jewelry",
+        "type": "skilltree:tag"
+      },
+      "item_bonus": {
+        "skill_bonus": {
+          "id": "56263d72-0687-43db-8c47-d7a8e93063c9",
+          "name": "Skill",
+          "amount": 0.1,
+          "operation": 1,
+          "player_multiplier": {
+            "type": "skilltree:none"
+          },
+          "player_condition": {
+            "type": "skilltree:none"
+          },
+          "type": "skilltree:all_attributes"
+        },
+        "type": "skilltree:skill_bonus"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_31"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/miner_offensive_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Incremento de Lujo",
+  "positionX": -44.897823,
+  "positionY": 534.7664,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

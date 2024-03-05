@@ -1,0 +1,26 @@
+{
+  "id": "skilltree:new_skill_7",
+  "bonuses": [
+    {
+      "type": "skilltree:gem_power",
+      "item_condition": {
+        "tag_id": "forge:curios/jewelry",
+        "type": "skilltree:tag"
+      },
+      "multiplier": 0.1
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_1"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/miner_speed_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Joya Potenciada",
+  "positionX": -18.226807,
+  "positionY": 608.06445,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

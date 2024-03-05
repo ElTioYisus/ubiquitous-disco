@@ -1,0 +1,51 @@
+{
+  "id": "skilltree:new_skill_125",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "af6d2410-88f9-4b95-aee8-4ecd47d6d533",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 0,
+      "player_multiplier": {
+        "attribute": "irons_spellbooks:max_mana",
+        "divisor": 25.0,
+        "type": "skilltree:attribute_value"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor_toughness",
+      "id": "e6fb9871-043f-43c2-a963-4d96851ef569",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 0,
+      "player_multiplier": {
+        "attribute": "irons_spellbooks:max_mana",
+        "divisor": 100.0,
+        "type": "skilltree:attribute_value"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_121",
+    "skilltree:new_skill_230"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Recubrimiento Arcano",
+  "positionX": 146.568,
+  "positionY": 173.712,
+  "buttonSize": 20,
+  "isStartingPoint": false
+}

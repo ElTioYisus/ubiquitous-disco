@@ -1,0 +1,35 @@
+{
+  "id": "skilltree:new_skill_300",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "id": "62de24c3-3633-499e-bf4e-1caab197a03d",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 0,
+      "player_multiplier": {
+        "attribute": "irons_spellbooks:max_mana",
+        "divisor": 20.0,
+        "type": "skilltree:attribute_value"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_299",
+    "skilltree:new_skill_304"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Crecimiento Magico",
+  "positionX": -70.014,
+  "positionY": 160.699,
+  "buttonSize": 20,
+  "isStartingPoint": false
+}

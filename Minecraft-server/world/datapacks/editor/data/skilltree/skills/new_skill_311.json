@@ -1,0 +1,44 @@
+{
+  "id": "skilltree:new_skill_311",
+  "bonuses": [
+    {
+      "type": "skilltree:ignite",
+      "chance": 0.1,
+      "duration": 5,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_condition": {
+          "type": "skilltree:none"
+        },
+        "player_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_multiplier": {
+          "type": "skilltree:none"
+        },
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "target": "enemy",
+        "type": "skilltree:attack"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_310"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:new_skill_307"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/enchanter_subclass_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Jugando con Fuego",
+  "positionX": -228.56538,
+  "positionY": 151.18213,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

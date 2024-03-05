@@ -1,0 +1,22 @@
+{
+  "id": "skilltree:new_skill_217",
+  "bonuses": [
+    {
+      "type": "skilltree:recipe_unlock",
+      "recipe_id": "skilltree:weapon_poisoning"
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_215"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Juego Sucio",
+  "positionX": 153.539,
+  "positionY": 31.641,
+  "buttonSize": 20,
+  "isStartingPoint": false
+}

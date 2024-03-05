@@ -1,0 +1,34 @@
+{
+  "id": "skilltree:new_skill_304",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "skilltree:regeneration",
+      "id": "58e8d376-e2a5-4850-b579-54d891c1fa0e",
+      "name": "Skill",
+      "amount": 0.5,
+      "operation": 0,
+      "player_multiplier": {
+        "attribute": "irons_spellbooks:mana_regen",
+        "divisor": 2.0,
+        "type": "skilltree:attribute_value"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_214"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Balance Espiritual",
+  "positionX": -92.53021,
+  "positionY": 173.69794,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

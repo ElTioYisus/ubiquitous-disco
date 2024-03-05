@@ -1,0 +1,66 @@
+{
+  "id": "skilltree:new_skill_36",
+  "bonuses": [
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "tag_id": "forge:curios/jewelry",
+        "type": "skilltree:tag"
+      },
+      "item_bonus": {
+        "skill_bonus": {
+          "attribute": "irons_spellbooks:max_mana",
+          "id": "e5926674-2eaf-4bd0-8192-7f4acb03975d",
+          "name": "Skill",
+          "amount": 5.0,
+          "operation": 0,
+          "player_multiplier": {
+            "type": "skilltree:none"
+          },
+          "player_condition": {
+            "type": "skilltree:none"
+          },
+          "type": "skilltree:attribute"
+        },
+        "type": "skilltree:skill_bonus"
+      }
+    },
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "tag_id": "forge:curios/jewelry",
+        "type": "skilltree:tag"
+      },
+      "item_bonus": {
+        "skill_bonus": {
+          "attribute": "irons_spellbooks:mana_regen",
+          "id": "f949227f-7a4d-474b-a577-4b23482f9e42",
+          "name": "Skill",
+          "amount": 1.0,
+          "operation": 0,
+          "player_multiplier": {
+            "type": "skilltree:none"
+          },
+          "player_condition": {
+            "type": "skilltree:none"
+          },
+          "type": "skilltree:attribute"
+        },
+        "type": "skilltree:skill_bonus"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_34"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/miner_speed_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Joyeria Mágica",
+  "positionX": -71.56876,
+  "positionY": 461.46738,
+  "buttonSize": 20,
+  "isStartingPoint": false
+}

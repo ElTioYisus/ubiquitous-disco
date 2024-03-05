@@ -1,0 +1,32 @@
+{
+  "id": "skilltree:new_skill_338",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_damage",
+      "id": "4d2fbdf9-5134-47d9-bf43-e7eb2266ffd0",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_157"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Mejora Tecnica",
+  "positionX": 169.09834,
+  "positionY": -123.42223,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

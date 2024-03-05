@@ -1,0 +1,33 @@
+{
+  "id": "skilltree:new_skill_295",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "skilltree:regeneration",
+      "id": "69ba2809-3f97-4156-b5ca-8368b113eb4c",
+      "name": "Skill",
+      "amount": 0.25,
+      "operation": 0,
+      "player_multiplier": {
+        "attribute": "minecraft:generic.armor",
+        "divisor": 5.0,
+        "type": "skilltree:attribute_value"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_294"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -167.0403,
+  "positionY": 44.633183,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

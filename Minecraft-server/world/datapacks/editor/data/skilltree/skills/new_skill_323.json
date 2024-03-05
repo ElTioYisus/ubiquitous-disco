@@ -1,0 +1,35 @@
+{
+  "id": "skilltree:new_skill_323",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:healing_received",
+      "id": "4de5927a-4271-4d0c-9baa-d7ac8797ecad",
+      "name": "Skill",
+      "amount": 0.15,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_309"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:new_skill_320",
+    "skilltree:new_skill_325"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Voluntad",
+  "positionX": -189.56471,
+  "positionY": 128.66504,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

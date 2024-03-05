@@ -1,0 +1,25 @@
+{
+  "id": "skilltree:new_skill_6",
+  "bonuses": [
+    {
+      "type": "skilltree:block_break_speed",
+      "player_condition": {
+        "type": "skilltree:none"
+      },
+      "multiplier": 0.1
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_1"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/miner_defensive_keystone_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Triturador",
+  "positionX": 23.49622,
+  "positionY": 608.0664,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

@@ -1,0 +1,39 @@
+{
+  "id": "skilltree:new_skill_169",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:crit_chance",
+      "id": "ae3c6b87-53fb-4075-8f08-29c6e7cc7c42",
+      "name": "Skill",
+      "amount": 0.03,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "min": 1,
+        "item_condition": {
+          "equipment_type": "weapon",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_gems"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_153"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:new_skill_177"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Engaste Critico",
+  "positionX": 185.57625,
+  "positionY": -42.87658,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

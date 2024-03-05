@@ -1,0 +1,30 @@
+{
+  "id": "skilltree:new_skill_325",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:healing_received",
+      "id": "47ead430-904a-46e9-ba66-364ddd74f4ce",
+      "name": "Skill",
+      "amount": 0.2,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Espíritu Ferreo",
+  "positionX": -202.566,
+  "positionY": 151.181,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

@@ -1,0 +1,48 @@
+{
+  "id": "skilltree:new_skill_31",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "curios:ring",
+      "id": "318d2f77-46b6-4b1a-a716-f94d4ca15f37",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:gem_power",
+      "item_condition": {
+        "tag_id": "forge:curios/jewelry",
+        "type": "skilltree:tag"
+      },
+      "multiplier": 0.3
+    },
+    {
+      "type": "skilltree:player_sockets",
+      "item_condition": {
+        "equipment_type": "any",
+        "type": "skilltree:equipment_type"
+      },
+      "sockets": 1
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_30"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "backgroundTexture": "skilltree:textures/icons/background/class.png",
+  "iconTexture": "skilltree:textures/icons/miner_subclass_2.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "title": "Joyero",
+  "positionX": -36.006832,
+  "positionY": 559.1994,
+  "buttonSize": 25,
+  "isStartingPoint": false
+}

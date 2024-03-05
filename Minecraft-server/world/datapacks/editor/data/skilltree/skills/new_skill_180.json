@@ -1,0 +1,52 @@
+{
+  "id": "skilltree:new_skill_180",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "skilltree:evasion",
+      "id": "db1793e6-52aa-4acf-bfe9-e0fe17272093",
+      "name": "Skill",
+      "amount": 5.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    },
+    {
+      "type": "skilltree:healing",
+      "chance": 1.0,
+      "amount": 5.0,
+      "event_listener": {
+        "enemy_condition": {
+          "type": "skilltree:none"
+        },
+        "player_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_multiplier": {
+          "type": "skilltree:none"
+        },
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "target": "player",
+        "type": "skilltree:evasion"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_179"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 198.57051,
+  "positionY": 83.64343,
+  "buttonSize": 20,
+  "isStartingPoint": false
+}

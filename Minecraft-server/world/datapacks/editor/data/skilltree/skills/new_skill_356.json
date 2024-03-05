@@ -1,0 +1,33 @@
+{
+  "id": "skilltree:new_skill_356",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_damage",
+      "id": "d0981ffe-b107-48db-9a0e-1361a9b6e99b",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_165",
+    "skilltree:new_skill_357"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/blacksmith_offensive_crafting_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Mejor Tecnica",
+  "positionX": -160.069,
+  "positionY": -123.438,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

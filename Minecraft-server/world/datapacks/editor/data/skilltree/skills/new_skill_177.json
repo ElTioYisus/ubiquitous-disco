@@ -1,0 +1,17 @@
+{
+  "id": "skilltree:new_skill_177",
+  "bonuses": [],
+  "directConnections": [],
+  "longConnections": [
+    "skilltree:new_skill_1"
+  ],
+  "oneWayConnections": [],
+  "backgroundTexture": "skilltree:textures/icons/background/gateway.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Arbol de Profesiones",
+  "positionX": 150.05989,
+  "positionY": -52.3944,
+  "buttonSize": 32,
+  "isStartingPoint": false
+}

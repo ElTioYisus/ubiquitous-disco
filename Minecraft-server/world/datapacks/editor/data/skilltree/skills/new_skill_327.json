@@ -1,0 +1,34 @@
+{
+  "id": "skilltree:new_skill_327",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:crit_chance",
+      "id": "3be7ca1d-c964-4b1e-8293-be34649ae79c",
+      "name": "Skill",
+      "amount": 0.05,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_316"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:new_skill_333",
+    "skilltree:new_skill_331"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -8.488463,
+  "positionY": -184.94653,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

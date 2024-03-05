@@ -1,0 +1,49 @@
+{
+  "id": "skilltree:new_skill_82",
+  "bonuses": [
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "equipment_type": "armor",
+        "type": "skilltree:equipment_type"
+      },
+      "item_bonus": {
+        "skill_bonus": {
+          "attribute": "minecraft:generic.max_health",
+          "id": "108d8a14-fa4e-425b-a8f1-a50aca055db3",
+          "name": "Skill",
+          "amount": 3.0,
+          "operation": 0,
+          "player_multiplier": {
+            "type": "skilltree:none"
+          },
+          "player_condition": {
+            "type": "skilltree:none"
+          },
+          "type": "skilltree:attribute"
+        },
+        "type": "skilltree:skill_bonus"
+      }
+    },
+    {
+      "type": "skilltree:gem_power",
+      "item_condition": {
+        "type": "skilltree:none"
+      },
+      "multiplier": 0.3
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_81"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "backgroundTexture": "skilltree:textures/icons/background/class.png",
+  "iconTexture": "skilltree:textures/icons/blacksmith_defensive_crafting_1.png",
+  "borderTexture": "skilltree:textures/tooltip/notable.png",
+  "title": "Herrero",
+  "positionX": 2.6322026,
+  "positionY": 778.3873,
+  "buttonSize": 25,
+  "isStartingPoint": false
+}

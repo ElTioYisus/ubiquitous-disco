@@ -1,0 +1,35 @@
+{
+  "id": "skilltree:new_skill_137",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "27c48bfa-a8b9-449d-815d-05fb44a2e91c",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_136",
+    "skilltree:new_skill_269"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:new_skill_283"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Coraza",
+  "positionX": -18.008606,
+  "positionY": -33.363884,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

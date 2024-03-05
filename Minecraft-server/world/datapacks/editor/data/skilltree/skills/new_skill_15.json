@@ -1,0 +1,32 @@
+{
+  "id": "skilltree:new_skill_15",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.luck",
+      "id": "0561c804-d83a-4656-b1b5-1c97087b86ce",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:fishing"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_12"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/cook_subclass_2_crafting_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Sebo de la Suerte",
+  "positionX": 87.49519,
+  "positionY": 586.3734,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

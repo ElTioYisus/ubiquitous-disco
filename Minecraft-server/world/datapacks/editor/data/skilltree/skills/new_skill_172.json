@@ -1,0 +1,38 @@
+{
+  "id": "skilltree:new_skill_172",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.attack_damage",
+      "id": "db11ac01-2e1f-461a-9540-74fe4cdde08f",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "min": 1,
+        "item_condition": {
+          "equipment_type": "weapon",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_gems"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_165"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:new_skill_178"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -150.5547,
+  "positionY": -87.92077,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

@@ -1,0 +1,32 @@
+{
+  "id": "skilltree:new_skill_25",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "forge:entity_reach",
+      "id": "9a56b8b4-549e-43ee-87ee-b13cebe80837",
+      "name": "Skill",
+      "amount": 0.125,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_22"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/miner_crit_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Alcance Minero",
+  "positionX": 16.849186,
+  "positionY": 550.69403,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

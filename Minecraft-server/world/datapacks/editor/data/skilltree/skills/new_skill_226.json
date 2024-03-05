@@ -1,0 +1,30 @@
+{
+  "id": "skilltree:new_skill_226",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.luck",
+      "id": "c3bac0c7-9436-4e3c-bd7e-34e8b3969acc",
+      "name": "Skill",
+      "amount": 3.0,
+      "operation": 0,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Loteria",
+  "positionX": 172.569,
+  "positionY": 128.678,
+  "buttonSize": 20,
+  "isStartingPoint": false
+}

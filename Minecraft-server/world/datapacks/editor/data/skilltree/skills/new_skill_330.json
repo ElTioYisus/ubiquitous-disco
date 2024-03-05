@@ -1,0 +1,33 @@
+{
+  "id": "skilltree:new_skill_330",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "attributeslib:crit_damage",
+      "id": "313fc045-7881-4e69-9694-4e8e21018683",
+      "name": "Skill",
+      "amount": 0.1,
+      "operation": 1,
+      "player_multiplier": {
+        "item_condition": {
+          "equipment_type": "any",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:enchants_levels"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": 4.5086694,
+  "positionY": -117.3966,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

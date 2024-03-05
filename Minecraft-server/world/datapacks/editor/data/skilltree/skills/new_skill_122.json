@@ -1,0 +1,31 @@
+{
+  "id": "skilltree:new_skill_122",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.movement_speed",
+      "id": "b6f36123-758f-451d-9f70-02ed33d7361b",
+      "name": "Skill",
+      "amount": 0.05,
+      "operation": 1,
+      "player_multiplier": {
+        "divisor": 10.0,
+        "type": "skilltree:missing_health_percentage"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "backgroundTexture": "skilltree:textures/icons/background/class.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Escape Forzado",
+  "positionX": 94.571,
+  "positionY": 83.643,
+  "buttonSize": 20,
+  "isStartingPoint": false
+}

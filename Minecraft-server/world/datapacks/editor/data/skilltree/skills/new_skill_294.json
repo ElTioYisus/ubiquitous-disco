@@ -1,0 +1,33 @@
+{
+  "id": "skilltree:new_skill_294",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "minecraft:generic.armor",
+      "id": "3ee2636b-09ae-4415-ba9d-a8cbd5939dff",
+      "name": "Skill",
+      "amount": 1.0,
+      "operation": 0,
+      "player_multiplier": {
+        "attribute": "minecraft:generic.max_health",
+        "divisor": 5.0,
+        "type": "skilltree:attribute_value"
+      },
+      "player_condition": {
+        "type": "skilltree:none"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_292"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -144.52443,
+  "positionY": 31.634647,
+  "buttonSize": 20,
+  "isStartingPoint": false
+}

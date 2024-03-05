@@ -1,0 +1,40 @@
+{
+  "id": "skilltree:new_skill_168",
+  "bonuses": [
+    {
+      "type": "skilltree:attribute",
+      "attribute": "irons_spellbooks:spell_power",
+      "id": "e85289ba-e49f-4a38-8b6b-45c2ee851a4a",
+      "name": "Skill",
+      "amount": 0.05,
+      "operation": 1,
+      "player_multiplier": {
+        "type": "skilltree:none"
+      },
+      "player_condition": {
+        "min": 1,
+        "item_condition": {
+          "equipment_type": "armor",
+          "type": "skilltree:equipment_type"
+        },
+        "type": "skilltree:has_gems"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_167",
+    "skilltree:new_skill_145"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [
+    "skilltree:new_skill_176"
+  ],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "title": "Engaste Arcano",
+  "positionX": 30.501495,
+  "positionY": 225.70062,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

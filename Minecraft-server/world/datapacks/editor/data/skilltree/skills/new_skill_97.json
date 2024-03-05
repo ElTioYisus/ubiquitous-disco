@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:new_skill_97",
+  "bonuses": [
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "equipment_type": "melee_weapon",
+        "type": "skilltree:equipment_type"
+      },
+      "item_bonus": {
+        "amount": 1,
+        "type": "skilltree:sockets"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_92"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/enchanter_subclass_1_offensive_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -50.08813,
+  "positionY": 768.6619,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

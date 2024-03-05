@@ -1,0 +1,28 @@
+{
+  "id": "skilltree:new_skill_88",
+  "bonuses": [
+    {
+      "type": "skilltree:crafted_item_bonus",
+      "item_condition": {
+        "equipment_type": "chestplate",
+        "type": "skilltree:equipment_type"
+      },
+      "item_bonus": {
+        "amount": 1,
+        "type": "skilltree:sockets"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_82"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "backgroundTexture": "skilltree:textures/icons/background/lesser.png",
+  "iconTexture": "skilltree:textures/icons/blacksmith_defensive_notable_1.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -23.368042,
+  "positionY": 778.38745,
+  "buttonSize": 16,
+  "isStartingPoint": false
+}

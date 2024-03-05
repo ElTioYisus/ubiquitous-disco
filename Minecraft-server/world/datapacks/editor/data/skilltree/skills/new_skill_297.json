@@ -1,0 +1,42 @@
+{
+  "id": "skilltree:new_skill_297",
+  "bonuses": [
+    {
+      "type": "skilltree:healing",
+      "chance": 0.1,
+      "amount": 3.0,
+      "event_listener": {
+        "damage_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_condition": {
+          "type": "skilltree:none"
+        },
+        "player_condition": {
+          "type": "skilltree:none"
+        },
+        "enemy_multiplier": {
+          "type": "skilltree:none"
+        },
+        "player_multiplier": {
+          "type": "skilltree:none"
+        },
+        "target": "player",
+        "type": "skilltree:attack"
+      }
+    }
+  ],
+  "directConnections": [
+    "skilltree:new_skill_296",
+    "skilltree:new_skill_298"
+  ],
+  "longConnections": [],
+  "oneWayConnections": [],
+  "backgroundTexture": "skilltree:textures/icons/background/notable.png",
+  "iconTexture": "skilltree:textures/icons/void.png",
+  "borderTexture": "skilltree:textures/tooltip/lesser.png",
+  "positionX": -234.58775,
+  "positionY": 31.630253,
+  "buttonSize": 20,
+  "isStartingPoint": false
+}
